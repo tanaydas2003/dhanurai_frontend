@@ -9,7 +9,7 @@ import OrganizationForm from './OrganizationForm';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const SignupPage = () => {
+const SignupForm = () => {
   const [userType, setUserType] = useState('individual');
   const [formData, setFormData] = useState({});
   const router = useRouter();
@@ -108,6 +108,6 @@ const SignupPage = () => {
   );
 }
 
-export default SignupPage;
+export default SignupForm;
 
 
