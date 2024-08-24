@@ -1,9 +1,10 @@
 import SignupForm from '../../components/SignupForm';
-
-export default function SignupPage() {
+const SignupPage = ()  =>{
   return (
     <div>
       <SignupForm />
     </div>
   );
 }
+
+export default SignupPage;
